@@ -95,3 +95,6 @@ Styling the components with Tailwind CSS also posed a challenge in maintaining c
 
 If given more time, I would improve the application by implementing server-side pagination for better performance when handling large datasets. Additionally, introducing a form validation library like Formik or Yup would enhance the reliability of input validation. Lastly, adding unit and integration tests using Jest and React Testing Library would ensure that all components and functionalities are thoroughly tested, reducing the risk of bugs and improving overall code quality. These improvements would enhance both scalability and robustness in future iterations.
 
+
+Published Link:https://user-management-dashboard-lime.vercel.app/
+
