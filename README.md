@@ -42,7 +42,8 @@ Features:
     Table Layout: Displays user details such as ID, first name, last name, email, and department (mapped to company.name from the API).
    
 
-4. UserForm.js (Add/Edit Form)
+4. UserForm.js (Add/Edit Form):
+   
 UserForm.js is responsible for handling both the creation of new users and the modification of existing users.
 Form Fields:
     Input Fields: Contains fields for firstName, lastName, email, and department. The form is dynamically populated when editing a user.
@@ -57,7 +58,8 @@ Styling:
     Form elements are styled using Tailwind CSS, ensuring an intuitive and clean user interface with responsive behavior. The buttons are distinct, offering visual feedback during hover and focus.
 
 
-5. userService.js (API Layer)
+5. userService.js (API Layer):
+
 This file acts as the API service layer for the application. It encapsulates all HTTP requests using axios, providing a clean separation of concerns between data fetching and UI rendering.
 API Functions:
     getUsers(): Retrieves the list of users from the mock API.
@@ -69,7 +71,8 @@ Advantages:
     Promotes better code readability and reusability.
 
 
-6. Pagination Logic
+6. Pagination Logic:
+   
 Pagination is implemented to ensure a smooth user experience, especially when managing a large number of users.
 State Variables:
     currentPage: Tracks the current page being viewed.
